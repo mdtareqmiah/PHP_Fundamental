@@ -33,8 +33,14 @@
                 $b=7;
                 echo "This is from php using html <br>";
                 //here use line break tag inner php
-                echo $fonts. "<br> Total value = ". $a+$b," Here i use . for string concate";
-                
+                echo $fonts. "<br> Total value = ". $a+$b," Here i use . for string concate <br>";
+                echo "PHP ", "is Nice ". "from echo";
+                echo "<br>";
+                print "php is nice from print<br>";
+                $x= print "Tareq";
+                var_dump($x);
+
+
 
             ?>
 
@@ -47,3 +53,8 @@
     </div>
 </body>
 </html>
+
+<!-- 
+This is repo directory
+git remote add origin git@github.com:mdtareqmiah/PHP_Fundamental.git
+ -->
