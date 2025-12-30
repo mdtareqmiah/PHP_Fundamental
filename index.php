@@ -44,7 +44,7 @@
             ?>
             
             <?php
-                echo "PHP Data types:"
+                echo "*PHP Data types:"
             ?>
             1.string 
             2.Integer
@@ -129,9 +129,22 @@
             <?php
                 //this is store function references
                 //called database
+
+            ?>
+            <?php
+                echo "*PHP String: "
+            ?>
+            Discuss build in methods.
+            <hr>
+            <?php
+                $x="This is string.";
+                echo $x ,"<br>length is: ", strlen($x);
+                echo "<br>Word count is: ", str_word_count($x);
+                echo "<br>Reverse: ", strrev($x);
+                echo "<br> find Position: ", strpos($x, "in");
+                echo "<br> Replace: ", str_replace("This", "Which", $x);
                 
             ?>
-
 
         </section>
     
