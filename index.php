@@ -397,7 +397,24 @@
                 echo "Assosiative array sort with key or with value.<br>";
                 // ksort($names) using key 
                 // asort($name) using value
-                
+
+            ?>
+            <hr>
+            PHP super global variable
+            <hr>
+            $GLOBALS
+            $_SERVER
+            $_REQUEST
+            $_POST
+            $_GET
+            <?php
+                $x=5;
+                $y=10;
+                function test(){
+                    $GLOBALS ['z']=$GLOBALS['x']+$GLOBALS['y'];
+                }
+                test();
+                echo $z;
             ?>
 
         </section>
